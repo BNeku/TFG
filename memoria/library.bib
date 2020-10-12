@@ -1,0 +1,242 @@
+@article{Hochreiter,
+abstract = {Learning to store information over extended time intervals via recurrent backpropagation takes a very long time, mostly due to insucient, decaying error back ow. We briey review Hochreiter's 1991 analysis of this problem, then address it by introducing a novel, ecient, gradient-based method called $\backslash$Long Short-Term Memory" (LSTM). Truncating the gradient where this does not do harm, LSTM can learn to bridge minimal time lags in excess of 1000 discrete time steps by enforcing constant error ow through $\backslash$constant error carrousels" within special units. Multiplicative gate units learn to open and close access to the constant error ow. LSTM is local in space and time; its computational complexity per time step and weight is O(1). Our experiments with arti cial data involve local, distributed, real-valued, and noisy pattern representations. In comparisons with RTRL, BPTT, Recurrent Cascade-Correlation, Elman nets, and Neural Sequence Chunking, LSTM leads to many more successful runs, and learns much faster. LSTM also solves complex, arti cial long time lag tasks that have never been solved by previous recurrent network algorithms.},
+author = {Hochreiter, Sepp and Schmidhuber, J{\"{u}}rgen},
+journal = {Neural Computation 9(8):1735-1780},
+title = {{Long Short-Term Memory}},
+url = {http://www.bioinf.jku.at/publications/older/2604.pdf},
+year = {1997}
+}
+
+@misc{Olah2015,
+author = {Olah, Christopher},
+booktitle = {Colah's Blog},
+keywords = {LSTMs},
+mendeley-tags = {LSTMs},
+title = {{Understanding LSTM Networks}},
+url = {https://colah.github.io/posts/2015-08-Understanding-LSTMs/},
+year = {2015}
+}
+
+@article{Bahdanau2016,
+abstract = {Neural machine translation is a recently proposed approach to machine translation. Unlike the traditional statistical machine translation, the neural machine translation aims at building a single neural network that can be jointly tuned to maximize the translation performance. The models proposed recently for neural machine translation often belong to a family of encoder–decoders and encode a source sentence into a fixed-length vector from which a decoder generates a translation. In this paper, we conjecture that the use of a fixed-length vector is a bottleneck in improving the performance of this basic encoder–decoder architecture, and propose to extend this by allowing a model to automatically (soft-)search for parts of a source sentence that are relevant to predicting a target word, without having to form these parts as a hard segment explicitly. With this new approach, we achieve a translation performance comparable to the existing state-of-the-art phrase-based system on the task of English-to-French translation. Furthermore, qualitative analysis reveals that the (soft-)alignments found by the model agree well with our intuition.},
+address = {Bremen (Germany)},
+archivePrefix = {arXiv},
+arxivId = {arXiv:1409.0473v7},
+author = {Bahdanau, Dzmitry and Cho, KyungHyun and Bengio, Yoshua},
+eprint = {arXiv:1409.0473v7},
+journal = {Conference paper at ICLR 2015},
+title = {{Neural Machine Translation by Jointly Learning to Align and Translate}},
+url = {https://arxiv.org/pdf/1409.0473.pdf},
+year = {2016}
+}
+
+@inproceedings{lin-2004-rouge,
+    title = "{ROUGE}: A Package for Automatic Evaluation of Summaries",
+    author = "Lin, Chin-Yew",
+    booktitle = "Text Summarization Branches Out",
+    month = jul,
+    year = "2004",
+    address = "Barcelona, Spain",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/W04-1013",
+    pages = "74--81",
+}
+
+@article{DBLP:journals/corr/SeeLM17,
+  author    = {Abigail See and
+               Peter J. Liu and
+               Christopher D. Manning},
+  title     = {Get To The Point: Summarization with Pointer-Generator Networks},
+  journal   = {CoRR},
+  volume    = {abs/1704.04368},
+  year      = {2017},
+  url       = {http://arxiv.org/abs/1704.04368},
+  archivePrefix = {arXiv},
+  eprint    = {1704.04368},
+  timestamp = {Mon, 13 Aug 2018 16:46:08 +0200},
+  biburl    = {https://dblp.org/rec/journals/corr/SeeLM17.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{Deep-Architectures-Abstractive-Text-Summarization-Amr-Zaki-2019,
+	title = "Deep Architectures for Abstractive Text
+	Summarization in Multiple Languages",
+	author = "Amr M. Zaki  and
+	Mahmoud I. Khalil  and
+	Hazem M. Abbas.",
+	booktitle = "14th IEEE International Conference on Computer Engineering and Systems (ICCES 2019)",
+	month = dec,
+	year = "2019",
+	address = "Cairo, Egypt",
+	publisher = "IEEE",
+	url = "http://www.icces.org.eg/",
+	doi = "",
+	pages = "",
+}
+
+@article{DBLP:journals/corr/PaulusXS17,
+  author    = {Romain Paulus and
+               Caiming Xiong and
+               Richard Socher},
+  title     = {A Deep Reinforced Model for Abstractive Summarization},
+  journal   = {CoRR},
+  volume    = {abs/1705.04304},
+  year      = {2017},
+  url       = {http://arxiv.org/abs/1705.04304},
+  archivePrefix = {arXiv},
+  eprint    = {1705.04304},
+  timestamp = {Mon, 13 Aug 2018 16:48:58 +0200},
+  biburl    = {https://dblp.org/rec/journals/corr/PaulusXS17.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{DBLP:journals/corr/abs-1805-09461,
+  author    = {Yaser Keneshloo and
+               Tian Shi and
+               Naren Ramakrishnan and
+               Chandan K. Reddy},
+  title     = {Deep Reinforcement Learning For Sequence to Sequence Models},
+  journal   = {CoRR},
+  volume    = {abs/1805.09461},
+  year      = {2018},
+  url       = {http://arxiv.org/abs/1805.09461},
+  archivePrefix = {arXiv},
+  eprint    = {1805.09461},
+  timestamp = {Mon, 13 Aug 2018 16:46:51 +0200},
+  biburl    = {https://dblp.org/rec/journals/corr/abs-1805-09461.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{pennington2014glove,
+  author = {Jeffrey Pennington and Richard Socher and Christopher D. Manning},
+  booktitle = {Empirical Methods in Natural Language Processing (EMNLP)},
+  title = {GloVe: Global Vectors for Word Representation},
+  year = {2014},
+  pages = {1532--1543},
+  url = {http://www.aclweb.org/anthology/D14-1162},
+}
+
+@article{DBLP:journals/corr/MikolovSCCD13,
+  author    = {Tomas Mikolov and
+               Ilya Sutskever and
+               Kai Chen and
+               Greg Corrado and
+               Jeffrey Dean},
+  title     = {Distributed Representations of Words and Phrases and their Compositionality},
+  journal   = {CoRR},
+  volume    = {abs/1310.4546},
+  year      = {2013},
+  url       = {http://arxiv.org/abs/1310.4546},
+  archivePrefix = {arXiv},
+  eprint    = {1310.4546},
+  timestamp = {Mon, 13 Aug 2018 16:47:09 +0200},
+  biburl    = {https://dblp.org/rec/journals/corr/MikolovSCCD13.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@misc{loye_2020,
+title={Attention Mechanism},
+url={https://blog.floydhub.com/attention-mechanism/},
+journal={FloydHub Blog},
+publisher={FloydHub Blog},
+author={Loye, Gabriel},
+year={2020},
+month={Jan}
+}
+
+@misc{zaki_2019,
+title={Beam Search \& Attention for text summarization made easy (Tutorial 5)}, url={https://medium.com/hackernoon/beam-search-attention-for-text-summarization-made-easy-tutorial-5-3b7186df7086},
+journal={Medium},
+publisher={HackerNoon.com},
+author={Zaki, Amr},
+year={2019},
+month={Jun}
+}
+
+@inproceedings{he-etal-2017-unsupervised,
+    title = "An Unsupervised Neural Attention Model for Aspect Extraction",
+    author = "He, Ruidan  and
+      Lee, Wee Sun  and
+      Ng, Hwee Tou  and
+      Dahlmeier, Daniel",
+    booktitle = "Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = jul,
+    year = "2017",
+    address = "Vancouver, Canada",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/P17-1036",
+    doi = "10.18653/v1/P17-1036",
+    pages = "388--397",
+    abstract = "Aspect extraction is an important and challenging task in aspect-based sentiment analysis. Existing works tend to apply variants of topic models on this task. While fairly successful, these methods usually do not produce highly coherent aspects. In this paper, we present a novel neural approach with the aim of discovering coherent aspects. The model improves coherence by exploiting the distribution of word co-occurrences through the use of neural word embeddings. Unlike topic models which typically assume independently generated words, word embedding models encourage words that appear in similar contexts to be located close to each other in the embedding space. In addition, we use an attention mechanism to de-emphasize irrelevant words during training, further improving the coherence of aspects. Experimental results on real-life datasets demonstrate that our approach discovers more meaningful and coherent aspects, and substantially outperforms baseline methods on several evaluation tasks.",
+}
+
+@inproceedings{wang-etal-2016-attention,
+    title = "Attention-based {LSTM} for Aspect-level Sentiment Classification",
+    author = "Wang, Yequan  and
+      Huang, Minlie  and
+      Zhu, Xiaoyan  and
+      Zhao, Li",
+    booktitle = "Proceedings of the 2016 Conference on Empirical Methods in Natural Language Processing",
+    month = nov,
+    year = "2016",
+    address = "Austin, Texas",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/D16-1058",
+    doi = "10.18653/v1/D16-1058",
+    pages = "606--615",
+}
+
+@article{DBLP:journals/corr/HermannKGEKSB15,
+  author    = {Karl Moritz Hermann and
+               Tom{\'{a}}s Kocisk{\'{y}} and
+               Edward Grefenstette and
+               Lasse Espeholt and
+               Will Kay and
+               Mustafa Suleyman and
+               Phil Blunsom},
+  title     = {Teaching Machines to Read and Comprehend},
+  journal   = {CoRR},
+  volume    = {abs/1506.03340},
+  year      = {2015},
+  url       = {http://arxiv.org/abs/1506.03340},
+  archivePrefix = {arXiv},
+  eprint    = {1506.03340},
+  timestamp = {Mon, 13 Aug 2018 16:49:00 +0200},
+  biburl    = {https://dblp.org/rec/journals/corr/HermannKGEKSB15.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{graff2003english,
+  title={English gigaword},
+  author={Graff, David and Kong, Junbo and Chen, Ke and Maeda, Kazuaki},
+  journal={Linguistic Data Consortium, Philadelphia},
+  volume={4},
+  number={1},
+  pages={34},
+  year={2003}
+}
+
+@ARTICLE{2015arXiv150603099B,
+       author = {{Bengio}, Samy and {Vinyals}, Oriol and {Jaitly}, Navdeep and
+         {Shazeer}, Noam},
+        title = "{Scheduled Sampling for Sequence Prediction with Recurrent Neural Networks}",
+      journal = {arXiv e-prints},
+     keywords = {Computer Science - Machine Learning, Computer Science - Computation and Language, Computer Science - Computer Vision and Pattern Recognition},
+         year = "2015",
+        month = "Jun",
+          eid = {arXiv:1506.03099},
+        pages = {arXiv:1506.03099},
+archivePrefix = {arXiv},
+       eprint = {1506.03099},
+ primaryClass = {cs.LG},
+       adsurl = {https://ui.adsabs.harvard.edu/abs/2015arXiv150603099B},
+      adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@article{Zhang2019PEGASUSPW,
+  title={PEGASUS: Pre-training with Extracted Gap-sentences for Abstractive Summarization},
+  author={Jingqing Zhang and Yao Zhao and Mohammad Saleh and Peter J. Liu},
+  journal={ArXiv},
+  year={2019},
+  volume={abs/1912.08777}
+}
