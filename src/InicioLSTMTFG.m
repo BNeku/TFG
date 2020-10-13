@@ -13,6 +13,6 @@ m = mobiledev;
 
 %% Cargar la RedLSTM si no existe la variable
 if not(exist('TFGnet','var'))
-    load TFGnet;
+    load(fullfile(pwd, 'src', 'red','TFGnet'), 'TFGnet');
     RedTFG = net;
 end
