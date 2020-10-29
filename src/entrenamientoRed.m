@@ -20,4 +20,4 @@ options = trainingOptions('adam', ...
 
 net = trainNetwork(XTrain,YTrain,layers,options);
 
-save(fullfile(pwd, 'src','red','netLSTMTFG'), 'net');
+save(fullfile(pwd, 'netLSTMTFG'), 'net');
